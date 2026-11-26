@@ -1,0 +1,39 @@
+POST http://localhost:3005/marcas
+Content-Type: application/json
+
+{
+  "nombre": "Chevrolet",
+  "pais": "Estados Unidos"
+}
+
+###
+POST http://localhost:3005/marcas
+Content-Type: application/json
+
+{
+  "nombre": "Mazda",
+  "pais": "Japon"
+}
+
+###
+POST http://localhost:3005/marcas
+Content-Type: application/json
+
+{
+  "nombre": "Mitsubishi",
+  "pais": "Japon"
+}
+
+###
+
+POST http://localhost:3005/modelos
+Content-Type: application/json
+
+{
+  "nombre": "Lancer",
+  "marcaId": 3
+}
+
+###
+
+GET http://localhost:3005/modelos
